@@ -13,7 +13,7 @@ class ControlBar extends React.Component {
     render() {
         return (
             <div id="ControlBar">ControlBar
-            <i class="fa fa-circle-o-notch faa-spin animated" aria-hidden="false"></i>
+            <i className="fa fa-circle-o faa-pulse animated colorScheme" aria-hidden="false"></i>
             </div>
         );
     }

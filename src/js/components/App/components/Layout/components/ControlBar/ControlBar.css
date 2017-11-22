@@ -3,3 +3,7 @@
     grid-row: 1;
     grid-column: 1;
 }
+
+.colorScheme {
+    color: rgba(180, 13, 13, 0.781);
+}
