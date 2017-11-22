@@ -1,0 +1,5 @@
+#ControlBar {
+    border: 1px solid red;
+    grid-row: 1;
+    grid-column: 1;
+}

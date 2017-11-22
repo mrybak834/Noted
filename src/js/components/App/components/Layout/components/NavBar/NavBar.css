@@ -1,0 +1,5 @@
+#NavBar {
+    border: 1px solid red;
+    grid-row: 1; 
+    grid-column: span 3;
+}
