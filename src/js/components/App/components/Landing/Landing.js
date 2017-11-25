@@ -11,10 +11,12 @@ class Layout extends React.Component {
     render() {
         return (
             <div id="Landing">
-                <div id="title">
-                    Noted
-                    <div id="subtitle">
-                        Music Pitch Detector
+                <div id="border">
+                    <div id="title">
+                        Noted
+                        <div id="subtitle">
+                            Music Pitch Detector
+                        </div>
                     </div>
                 </div>
             </div>
