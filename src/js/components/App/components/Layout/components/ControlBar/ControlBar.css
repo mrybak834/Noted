@@ -4,6 +4,8 @@
     grid-column: 1;
 }
 
-.colorScheme {
+.iconStyle {
+    font-size: 20px;
     color: rgba(180, 13, 13, 0.781);
+    text-shadow: 2px 3px rgb(151, 113, 113);
 }

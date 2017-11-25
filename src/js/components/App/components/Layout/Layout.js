@@ -6,7 +6,6 @@ import NavBar from './components/NavBar/NavBar';
 import ControlBar from './components/ControlBar/ControlBar';
 import OAuthBar from './components/OAuthBar/OAuthBar';
 
-
 class Layout extends React.Component {
     constructor(props){
         super(props);

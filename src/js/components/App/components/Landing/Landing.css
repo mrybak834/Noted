@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    overflow: none;
+}
+
+  #Landing {
+    display: grid;
+    grid-template-rows: 35% repeat(2, 1fr) 35%;
+    grid-template-columns: 25% repeat(2, 1fr) 25%;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+
+    /* https://unsplash.com/photos/5gn2soeAc40 */
+    background-image: url('../../../../../images/landing.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* http://freetypography.com/2014/03/24/free-font-simplifica/ */
+  @font-face {
+    font-family: Simplifica;
+    src: local("Simplifica"),
+         url('../../../../../fonts/simplifica.ttf');
+    font-weight: normal;
+  }
+
+  #title {
+      color: rgba(175, 51, 51, 0.555);
+      font-family: Simplifica;
+      font-size: 5rem;
+      grid-area: 2 / 2 / 4 / 4;
+      border-top: 2px solid white;
+      border-bottom: 2px solid white;
+  }
+
+  #subtitle {
+    color: rgba(175, 51, 51, 0.377);
+    font-family: Simplifica;
+    font-size: 3rem;
+}

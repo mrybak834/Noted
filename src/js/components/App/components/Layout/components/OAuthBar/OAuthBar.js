@@ -13,8 +13,8 @@ class OAuthBar extends React.Component {
     render() {
         return (
             <div id="OAuthBar">
-                <img src="../../../../../../../images/soundCloudLogo.png" className="logo" alt="SoundCloud"/>
-                <img src="../../../../../../../images/spotifyLogo.png" className="logo" alt="Spotify"/>
+                <img src="../../../../../../../images/soundCloudLogo.png" className="logo" id="soundCloud" alt="SoundCloud"/>
+                <img src="../../../../../../../images/spotifyLogo.png" className="logo" id="spotify" alt="Spotify"/>
             </div>
         );
     }

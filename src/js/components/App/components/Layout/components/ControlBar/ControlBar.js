@@ -12,8 +12,10 @@ class ControlBar extends React.Component {
 
     render() {
         return (
-            <div id="ControlBar">ControlBar
-            <i className="fa fa-circle-o faa-pulse animated colorScheme" aria-hidden="false"></i>
+            <div id="ControlBar">
+            <i class="fa fa-step-backward fa-2x iconStyle" aria-hidden="true"></i>
+            <i className="fa fa-circle-o fa-2x faa-pulse animated faa-slow iconStyle" aria-hidden="false"></i>
+            <i class="fa fa-step-forward fa-2x iconStyle" aria-hidden="true"></i>
             </div>
         );
     }
