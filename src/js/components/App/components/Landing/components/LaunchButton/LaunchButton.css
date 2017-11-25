@@ -1,21 +1,50 @@
-#LaunchButton {
-    /* Disable browser default button appearances */
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-  
-    grid-area: 1 / 2 / 2 / 3;
-  
-    border: .1vh solid rgb(248, 238, 238);
-    font-family: sans-serif;
-    color: rgb(219, 219, 219);
-  }
-  
-  #LaunchButtonText {
-    text-align: center;
-    margin-top: 3vh;
-  }
-  
-  #LaunchButton:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  -webkit-transform: translateY(-0.25em);
+          transform: translateY(-0.25em);
+}
+
+.raise {
+  --color: #2b1c1c9f;
+  --hover: #e6ddda;
+}
+
+button {
+  color: var(--color);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+body {
+  color: #fff;
+  background: #17181c;
+  font: 300 1em 'Fira Sans', sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
+

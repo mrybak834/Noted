@@ -57,6 +57,10 @@
   grid-template-columns: 35% 1fr 35%;
 }
 
+#LaunchButton {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
 /* When the screen is less width is less than 650px, resize the text */
 @media only screen and (max-width: 650px){
     #title {

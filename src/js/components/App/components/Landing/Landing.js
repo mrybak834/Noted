@@ -21,7 +21,7 @@ class Landing extends React.Component {
                     </div>
                 </div>
                 <div id="buttonArea">
-                    <LaunchButton />
+                    <LaunchButton id="LaunchButton" />
                 </div>
             </div>
         );
