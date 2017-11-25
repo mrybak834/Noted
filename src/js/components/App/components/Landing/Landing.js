@@ -19,6 +19,9 @@ class Layout extends React.Component {
                         </div>
                     </div>
                 </div>
+                <div id="buttonArea">
+                    <div id="beginButton">Press me</div>
+                </div>
             </div>
         );
     }
