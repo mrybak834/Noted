@@ -1,0 +1,21 @@
+#LaunchButton {
+    /* Disable browser default button appearances */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  
+    grid-area: 1 / 2 / 2 / 3;
+  
+    border: .1vh solid rgb(248, 238, 238);
+    font-family: sans-serif;
+    color: rgb(219, 219, 219);
+  }
+  
+  #LaunchButtonText {
+    text-align: center;
+    margin-top: 3vh;
+  }
+  
+  #LaunchButton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }

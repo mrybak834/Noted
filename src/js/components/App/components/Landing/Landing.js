@@ -2,8 +2,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import './Landing.css';
+import LaunchButton from "./components/LaunchButton/LaunchButton";
 
-class Layout extends React.Component {
+class Landing extends React.Component {
     constructor(props){
         super(props);
     }
@@ -20,11 +21,11 @@ class Layout extends React.Component {
                     </div>
                 </div>
                 <div id="buttonArea">
-                    <div id="beginButton">Press me</div>
+                    <LaunchButton />
                 </div>
             </div>
         );
     }
 }
 
-export default Layout;
+export default Landing;
