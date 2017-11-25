@@ -49,3 +49,14 @@
     font-family: Simplifica;
     font-size: 8vmin;
 }
+
+/* When the screen is less width is less than 650px, resize the text */
+@media only screen and (max-width: 650px){
+    #title {
+        font-size: 15vh;
+    }
+
+    #subtitle {
+        font-size: 6vh;
+    }
+}
