@@ -10,7 +10,8 @@ class LaunchButton extends React.Component {
 
     render() {
         return (
-            <button id="LaunchButton" class="raise">Launch</button>
+            // Obtains the onClick method passed through Landing.js, which is passed from App.js
+            <button id="LaunchButton" class="raise" onClick={this.props.onClick}>Launch</button>
         );
     }
 }

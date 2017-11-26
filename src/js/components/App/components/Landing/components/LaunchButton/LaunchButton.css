@@ -1,25 +1,26 @@
 /* https://codemyui.com/simple-box-shadow-button-hover-animation/ */
 
-.raise:hover,
-.raise:focus {
-  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-  -webkit-transform: translateY(-0.25em);
-          transform: translateY(-0.25em);
+#LaunchButton {
+    --color: #2b1c1c9f;
+    --hover: #e6ddda;
+    color: var(--color);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
 }
 
-.raise {
-  --color: #2b1c1c9f;
-  --hover: #e6ddda;
-}
-
-button {
-  color: var(--color);
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
-}
-button:hover, button:focus {
-  border-color: var(--hover);
-  color: #fff;
+#LaunchButton:hover,
+#LaunchButton:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    -webkit-transform: translateY(-0.25em);
+            transform: translateY(-0.25em);
+            border-color: var(--hover);
+            color: #fff;
 }
 
 body {
@@ -40,13 +41,3 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
-
-button {
-  background: none;
-  border: 2px solid;
-  font: inherit;
-  line-height: 1;
-  margin: 0.5em;
-  padding: 1em 2em;
-}
-

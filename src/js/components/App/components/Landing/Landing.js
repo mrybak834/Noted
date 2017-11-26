@@ -9,21 +9,29 @@ class Landing extends React.Component {
         super(props);
     }
 
+    renderButton(){
+        return (
+            <LaunchButton
+                onClick ={() => this.props.onClick()}
+            />
+        );
+    }
+
     render() {
         return (
             <div id="Landing">
                 <div id="border">
                     <div id="title">
                         Noted
-                        <div id="subtitle">
-                            Music Pitch Detector
-                        </div>
+                            <div id="subtitle">
+                                Music Pitch Detector
+                            </div>
                     </div>
                 </div>
                 <div id="buttonArea">
-                    <LaunchButton />
+                    {this.renderButton()}
                 </div>
-            </div>
+            </div>            
         );
     }
 }
