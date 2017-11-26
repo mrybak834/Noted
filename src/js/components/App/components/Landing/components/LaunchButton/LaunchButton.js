@@ -10,9 +10,7 @@ class LaunchButton extends React.Component {
 
     render() {
         return (
-            <div id="LaunchButton">
-                <button class="raise">Launch</button>
-            </div>
+            <button id="LaunchButton" class="raise">Launch</button>
         );
     }
 }
